@@ -1,0 +1,18 @@
+# Secrets: Qase API token and other local variables
+.env
+.env.*
+!.env.example
+
+# Local Qase sync state (internal workspace ids)
+qase_state.json
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
